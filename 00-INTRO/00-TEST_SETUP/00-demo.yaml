@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: whoami
+spec:
+  selector:
+    matchLabels:
+      app: whoami
+  template:
+    metadata:
+      labels:
+        app: whoami
+    spec:
+      containers:
+        - name: whoami
+          image: containous/whoami
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+              name: http
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: whoami
+spec:
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    app: whoami
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: whoami
+  annotations:
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+spec:
+  tls:
+    - hosts:
+        - hekovnik.whoami.k8.si
+      secretName: whoami-tls
+  rules:
+    - host: hekovnik.whoami.k8.si
+      http:
+        paths:
+          - backend:
+              serviceName: whoami
+              servicePort: 80

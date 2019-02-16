@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: api-data
+spec:
+  ttlSecondsAfterFinished: 100
+  template:
+    spec:
+      containers:
+      - name: api
+        image: jazinty/api-grandstack
+        command: ["npm", "run", "seedDb"]
+      restartPolicy: Never
