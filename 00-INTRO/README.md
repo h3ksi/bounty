@@ -12,7 +12,7 @@ Solutions for challenges will be peer reviewed and decided on best one. Decissio
 ## Environment
 All demos of solutions need to be delivered on Hekovnik's kubernetes platform (k8.si) and shared on open repository. Without this deliverable your solution is not valid for bounty.
 
-If you wish to get access to k8.si and get you rown namespace for delivering a solution: apply [here](mailchimp form for k8). you will get your access in 24h and will be able to test your solution.
+If you wish to get access to k8.si and get you rown namespace for delivering a solution: apply [here](https://vision.h3k.si/k8si-access). you will get your access in 24h and will be able to test your solution.
 
 **Please if you wish to compete in a bounty, do not fill out this form on your last day for deliverable!**
 
