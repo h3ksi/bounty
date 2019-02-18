@@ -20,10 +20,13 @@ We encourage you to use existing solutions (opensource) where you see fit, and b
 
 ## Have fun and learn from others
 Although we call the bounties, the aim is to bring together a community of developers that want to learn fromone another. We will cover many aspects of whole development cycle and will not stick only to AI solutions.
+
 We belive that in order to develop truly AI driven applications, the application itself needs to have backbone that accomodates this. This is why without a good arhitectural design of bottomline app we will not be able to build self evolvnig solutions.
+
 This way AI delevelopers will be able to learn form frontend/backend javascript ninjas and a bit later those same indivit+duals will be able to broaden their knowledge with AI algorithms.
 
 ## Chalenge structure
 Our challenges will be constructed on bi-weekly (later hopefully weekly) cycle. 
 Each cycles goal will be posted as new folder on this repository, where you will find the scope, all information is needed for participation and due date for deliverables.
+
 Bounty eligible solutions will be only the ones delivered in requested fashion till exact due date given by the scope. 
