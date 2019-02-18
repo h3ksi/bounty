@@ -1,4 +1,4 @@
-# Let's build our personal AI apps 
+# Let's try to build our personal AI apps ** EXPERIMENT **
 
 Welcome to **h3k.si** bounty page!
 
