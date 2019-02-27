@@ -40,7 +40,7 @@ and you should be able to visit https://<teamname>.whoami.k8.si
 
 ## Step3: clean up 
 
-You cen stop this application and clean up pods.
+You can stop this application and clean up pods.
 
 use `kubectl delete --kubeconfig ~/.kube/config-hek -f 00-demo.yaml`
 
