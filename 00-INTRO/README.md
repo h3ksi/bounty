@@ -12,7 +12,7 @@ Solutions for challenges will be peer reviewed with the best solution taking the
 ## Environment
 All demos of solutions need to be delivered on Hekovnik's kubernetes platform (k8.si) and shared on open repository. Without this deliverable, your solution is not valid for bounty.
 
-If you wish to get access to k8.si and get your own namespace for delivering a solution: apply [here](https://vision.h3k.si/k8si-access). You will be granted access in 24h so make sure you calculate some extra time to test your solution.
+If you wish to get access to k8.si and get your own namespace for delivering a solution: apply [here](https://vision.h3k.si/k8si-access). You will be granted access in 24h so make sure you calculate some extra time to test your solution. If you are unable to see the form for registration, email us at agi@hekovnik.si with you first and last name and we will provide you the required access.
 
 **Please be diligent, If you wish to compete in a bounty, don't fill out the form for Kubernetes on the last day!**
 
