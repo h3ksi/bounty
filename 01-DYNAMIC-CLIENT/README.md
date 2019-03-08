@@ -13,6 +13,6 @@ You are not fixed to react, apollo and there is no need to focus on UX as such. 
 
 ## Deliverable
 
-Your app should be up and running and your code published untill 7th of February 2019 at 17:00. All solutions posted after that are not considered for reward. We will have demos and peer review on 28th of February 2019 at 17:00, so please send someone from your team on this event or inform us of possible participation online. You will need to explain your code if necesarry and evaluate others.
+Your app should be up and running and your code published untill 14th of March 2019 at 17:00. All solutions posted after that are not considered for reward. We will have demos and peer review on 14th of March 2019 at 17:00, so please send someone from your team on this event or inform us of possible participation online. You will need to explain your code if necesarry and evaluate others.
 
 Your solution should be seen on: <teamName>.<solution1>.k8.si.
